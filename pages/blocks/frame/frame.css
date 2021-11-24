@@ -1,0 +1,13 @@
+.frame {
+  grid-area: frame;
+  display: flex;
+  align-self: flex-end;
+  text-align: center;
+  width: 54.5%;
+  height: 55%;
+  padding: 0;
+  background-color: #0278FE;
+  color: #FFFFFF;
+  border: none;
+  margin: 0;
+}

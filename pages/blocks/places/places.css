@@ -1,0 +1,4 @@
+.places {
+  max-width: calc(((100% / 92.5) * 77));
+  margin: 0;
+}
