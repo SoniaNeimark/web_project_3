@@ -1,0 +1,6 @@
+.place-card__website {
+  grid-area: place-card__website;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+}

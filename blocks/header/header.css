@@ -1,0 +1,8 @@
+.header {
+  max-width: 76.875vw;
+  margin: 0 auto 7.2%;
+  padding-top: 2.7%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

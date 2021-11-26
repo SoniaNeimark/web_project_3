@@ -1,0 +1,12 @@
+.rectangle_place_cover {
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 0;
+  transition: opacity 1s linear;
+}
+
+.rectangle_place_cover:hover {
+  opacity: 0.8;
+}
+
+

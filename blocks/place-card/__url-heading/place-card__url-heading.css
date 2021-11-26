@@ -1,0 +1,9 @@
+.place-card__url-heading {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  margin: 0;
+  padding-bottom: 0.65vw;
+}

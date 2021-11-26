@@ -1,0 +1,8 @@
+.place-card__title {
+  max-width: 93%;
+  margin: 0;
+  grid-area: place-card__title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+}

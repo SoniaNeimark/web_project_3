@@ -1,0 +1,17 @@
+.place-card {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto 176px auto;
+  padding: 0;
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 46.8% auto;
+  grid-template-rows: auto auto;
+  /*grid-column-gap: calc((((100% / 92.5) * 76.875) / 100) * 4.06);*/
+  grid-column-gap: 3.12vw;
+  /*grid-column-gap: 40 px;*/
+  grid-row-gap: 3.75vw;
+  grid-template-areas:
+  "place-card__title place-card__website"
+  "place-card__image-container place-card__text";
+}

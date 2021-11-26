@@ -1,0 +1,7 @@
+.place-card__image-container {
+  width: 100%;
+  /*width: 35.93vw;*/
+  grid-area: place-card__image-container;
+  display: flex;
+  flex-flow: column;
+}

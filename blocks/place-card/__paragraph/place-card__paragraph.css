@@ -1,0 +1,11 @@
+.place-card__paragraph {
+  max-width: 100%;
+  grid-area: place-card__paragraph;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0 0 5.2% 0;
+}
+
+.place-card__paragraph:last-of-type {
+  margin: 0;
+}
