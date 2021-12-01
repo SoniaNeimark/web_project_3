@@ -1,4 +1,9 @@
-.footer__paragraph{
+.footer__paragraph {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
+  text-align: center;
+  margin: 0 auto;
 }
+

@@ -1,8 +1,21 @@
 .button_place_places {
-  grid-area: button_place_places;
-  width: 53%;
+  width: 288px;
   /*width: 19.4vw;*/
-  height: 3.8vw;
-  margin-top: 3.8vw;
+  height: 48px;
   /*height: calc(100% * 2.35);*/
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .button_place_places {
+    width: 248px;
+    margin: 0;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button_place_places {
+    width: 90%;
+  }
 }

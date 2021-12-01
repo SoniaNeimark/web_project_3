@@ -1,6 +1,14 @@
 .logo_place-header {
-  max-width: 27.5%;
-  max-height: calc((27% / 100) * 26);
-  margin-top: 3,5%;
-  margin-bottom: 9%;
+  width: 200px;
+  /*max-height: calc((27% / 100) * 26);*/
+  /*margin-top: 3,5%;*/
+  margin: 0 auto 50px auto;
+
+}
+
+@media screen and (min-width: 768px) {
+  .logo_place-header {
+    width: 270px;
+    margin-bottom: 90px;
+  }
 }

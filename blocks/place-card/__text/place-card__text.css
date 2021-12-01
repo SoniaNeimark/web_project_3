@@ -1,5 +1,14 @@
 .place-card__text {
-  width: 100%;
+  max-width: 100%;
   /*max-width: 37.82vw;*/
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place-card__text {
+    grid-area: place-card__text;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+  }
 }

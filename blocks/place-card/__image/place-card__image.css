@@ -1,5 +1,18 @@
 .place-card__image {
   width: 100%;
   object-fit: cover;
-  /*width: 35.93vw;*/
+  margin: 0 auto;
 }
+
+/*@media screen and (min-width: 768px) {
+  .place-card__image {
+    grid-area: place-card__image;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .place-card__image {
+    max-height: 95vh;
+    object-fit: contain;
+  }
+}*/

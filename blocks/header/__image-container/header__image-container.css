@@ -1,6 +1,26 @@
 .header__image-container {
-width: 100%;
-object-fit: contain;
-position: relative;
-margin-top: 6.5%;
+  width: 100%;
+  /*object-fit: contain;*/
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  /*margin: 12.5% auto 0 auto;*/
 }
+
+/*@media screen and (min-width: 768px) {
+  .header__image-container {
+    margin-top: 36px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .header__image-container {
+    max-height: 95vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__image-container {
+    margin-top: 64px;
+  }
+}*/

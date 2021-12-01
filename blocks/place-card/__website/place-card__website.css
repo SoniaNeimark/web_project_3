@@ -1,6 +1,14 @@
 .place-card__website {
-  grid-area: place-card__website;
+  max-width: 288px;
+  margin: 0;
   display: flex;
   flex-flow: column;
   justify-content: end;
+  align-items: flex-start;
 }
+
+/*@media screen and (min-width: 768px) {
+  .place-card__website {
+    grid-area: place-card__website;
+  }
+}*/
