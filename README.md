@@ -2,6 +2,7 @@
 ### Overview
 * About
 * Technical Details
+* Link
 
 **About**
 
@@ -10,3 +11,5 @@ This is my third web project created within [Practicum100](https://practicum.yan
 **Technical Details**
 
 The projecct is created by using __HTML__ and __CSS__, and its structure is based on __BEM__ methodology. A combination of responsive and adaptive layouts is applied in order to make it look nice and correctly on various screen sizes. I did my best to make it fit the design provided by [Practicum100](https://practicum.yandex.com) in [Figma](https://www.figma.com/).
+
+**Link**
