@@ -4,15 +4,8 @@
   margin: 0 auto;
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .place-card__image {
-    grid-area: place-card__image;
+    grid-area: "place-card__image";
   }
 }
-
-@media screen and (orientation: landscape) {
-  .place-card__image {
-    max-height: 95vh;
-    object-fit: contain;
-  }
-}*/

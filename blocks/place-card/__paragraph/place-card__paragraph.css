@@ -9,5 +9,16 @@
 }
 
 .place-card__paragraph:last-of-type {
-  margin: 0;
+  margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .place-card__paragraph {
+    font-size: 18px;
+    /*Optional. Option "Whide screens".
+    Adaptive layout for wide screens
+    font-size: calc((100vw - 48px * 2) / 100 * 1.4);
+    margin: 0 0 calc((100vw - 48px * 2) / 100 * 2.15) 0;*/
+  }
 }

@@ -9,3 +9,19 @@
   color: #FFFDFD;
   opacity: 1;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__title {
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}
+
+/*Optional. Option "Wide screens".
+  Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .footer__title {
+    font-size: calc((100vw - 48px * 2) / 100 * 2.71);
+    margin-bottom: calc((100vw - 48px * 2) / 100 * 1.4);
+  }
+}*/

@@ -5,20 +5,31 @@
 
 @media screen and (min-width: 768px) {
   .photo-grid {
-    min-width: 93.75%;
+    max-width: 93.75%;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
-    max-width: 100%;
+    max-width: 92.5%;
     margin-bottom: 92px;
   }
 }
 
-@media screen and (max-width: 320px) {
+/*Optional. Option "Whide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
   .photo-grid {
     max-width: 100%;
   }
 }
+
+/* Optional. Option "Small screen".
+Adaptive layout for screens with less than 320px width
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    max-width: calc(100% - 16px * 2);
+  }
+}
+*/

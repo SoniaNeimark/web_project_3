@@ -5,14 +5,24 @@
 
 @media screen and (min-width: 1280px) {
   .page__content {
-    max-width: calc(100% - (48px * 2));
+    max-width: 1280px;
   }
-
 }
 
-@media screen and (max-width: 320px) {
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1281px) {
   .page__content {
-    max-width: 95%;
+    max-width: calc(100% - 48px * 2);
+  }
+}*/
+
+/*Optional. Option "Small screens in landscape mode".
+Looks better on small screens in landscape mode, as all images of the main section fit the screen
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .page__content {
+    max-width: 61vw;
   }
 
 }
+*/

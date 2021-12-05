@@ -12,3 +12,11 @@
     margin-bottom: 32px;
   }
 }
+
+/*Optional. Option "Whide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .header__title {
+    font-size: calc((100vw - 48px * 2) / 100 * 8.1);
+  }
+}*/

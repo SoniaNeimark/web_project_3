@@ -2,4 +2,11 @@
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: calc(100% - 48px * 2);
+  }
 }

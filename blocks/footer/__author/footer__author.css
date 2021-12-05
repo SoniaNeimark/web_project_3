@@ -3,6 +3,21 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1;
-  margin: 0;
-  padding: 64px 0 24px 0;
+  text-align: center;
+  margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__author {
+    line-height: 1.14;
+  }
+}
+
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .footer__author {
+    font-size: calc((100vw - 48px * 2) / 100 * 1.2);
+    padding-top: calc((100vw - 48px * 2) / 100 * 7.8);
+  }
+}*/

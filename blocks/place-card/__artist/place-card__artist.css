@@ -2,6 +2,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 1.22;
   margin: 0;
 }
+
+/*Optional. Option "Whide screens".
+    Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .place-card__artist {
+    font-size: calc((100vw - 48px * 2) / 100 * 1.55);
+  }
+}
+*/

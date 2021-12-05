@@ -1,8 +1,18 @@
 .button {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0278FE;
   border: none;
   border-radius: 4px;
-  padding: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  color: #FFFFFF;
   -webkit-transition: background-color 1s linear;
   -moz-transition: background-color 1s linear;
   -o-transition: background-color 1s linear;
@@ -11,4 +21,15 @@
 
 .button:hover {
   background-color: #0063D2;
+  cursor: pointer;
 }
+
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1281px) {
+  .button {
+    height: calc((100vw - 48px * 2) / 100 * 4.05);
+    border-radius: calc((100vw - 48px * 2) / 100 * 0.35);
+    font-size: calc((100vw - 48px * 2) / 100 * 1.55);
+  }
+}*/

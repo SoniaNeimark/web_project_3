@@ -1,21 +1,28 @@
 .button_place_places {
   width: 288px;
-  /*width: 19.4vw;*/
-  height: 48px;
-  /*height: calc(100% * 2.35);*/
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .button_place_places {
-    width: 248px;
+    grid-area: "button_place_places";
     margin: 0;
 
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .button_place_places {
-    width: 90%;
+    width: 100%;
   }
 }
+
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .button_place_places {
+    width: calc((100vw - 48px * 2) / 100 * 24.35);
+  }
+}*/
+
+

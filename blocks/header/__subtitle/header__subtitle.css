@@ -12,3 +12,18 @@ line-height: 1.25;
     line-height: 1.2;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .header__subtitle {
+    max-width: 720px;
+  }
+}
+
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .header__subtitle {
+    font-size: calc((100vw - 48px * 2) / 100 * 2.55);
+  }
+}
+*/

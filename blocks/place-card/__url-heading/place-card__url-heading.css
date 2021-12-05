@@ -7,3 +7,12 @@
   margin: 0;
   padding-bottom: 0.65vw;
 }
+
+/*Optional. Option "Whide screens".
+    Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .place-card__url-heading {
+    font-size: calc((100vw - 48px * 2) / 100 * 1.02);
+  }
+}
+*/
