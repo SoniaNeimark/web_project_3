@@ -1,6 +1,6 @@
 .place-card__title {
-  max-width: 100%;
-  margin: 0;
+  max-width: 90%;
+  margin: 0 5%;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -10,6 +10,8 @@
 
 @media screen and (min-width: 768px) {
   .place-card__title {
+    max-width: 100%;
+    margin: 0;
     grid-area: place-card__title;
     font-size: 42px;
     line-height: 1.1;

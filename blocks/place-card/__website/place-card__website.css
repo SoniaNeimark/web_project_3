@@ -1,6 +1,6 @@
 .place-card__website {
   max-width: 288px;
-  margin: 0;
+  margin: 0 5%;
   display: flex;
   flex-flow: column;
   justify-content: end;
@@ -11,6 +11,7 @@
   .place-card__website {
     grid-area: place-card__website;
     max-width: 352px;
+    margin: 0;
   }
 }
 
