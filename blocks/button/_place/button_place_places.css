@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 768px) {
   .button_place_places {
+    width: 248px;
     grid-area: button_place_places;
     margin: 0;
 
