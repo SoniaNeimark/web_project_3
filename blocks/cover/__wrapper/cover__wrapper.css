@@ -1,0 +1,19 @@
+.cover__wrapper {
+  background-image: url(../../../images/cover/background.png);
+  background-size: cover;
+  max-width: 100%;
+  min-height: 264px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__wrapper{
+    min-height: 746px;
+  }
+
+}

@@ -1,0 +1,35 @@
+.cover__text {
+  max-width: 288px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.cover__text:hover ~ .rectangle_place_cover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__text {
+    max-width: 656px;
+  }
+}
+
+/*Essencial when "Small screens in landscape mode" option is applied to .page__content class
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .cover__text {
+    max-width: 61vw;
+  }
+
+}*/
+
+/*Optional. Option "Wide screens".
+  Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .cover__text {
+    max-width: 55.5%;
+  }
+}*/

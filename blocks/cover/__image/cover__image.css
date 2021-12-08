@@ -1,0 +1,21 @@
+.cover__image {
+  width: 127%;
+  margin: 0 auto;
+  transform: translateX(-13.5%);
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__image {
+    width: 155%;
+    transform: translateX(-27.5%);
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .cover__image {
+    width: 100%;
+    transform: translateX(0);
+  }
+}

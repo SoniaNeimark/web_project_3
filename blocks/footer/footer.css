@@ -1,8 +1,9 @@
 .footer {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
 
 @media screen and (min-width: 1280px) {

@@ -1,0 +1,39 @@
+.header__heading {
+  max-width: 288px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-style: normal;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__heading {
+    max-width: 720px;
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__heading{
+    max-width: 793px;
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header__heading {
+    max-width: 96%;
+  }
+
+}
+
+/*Optional. Option "Whide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .header__heading{
+    max-width: calc((100vw - 48px * 2) / 100 * 65);
+    padding-bottom: 64px;
+  }
+}*/

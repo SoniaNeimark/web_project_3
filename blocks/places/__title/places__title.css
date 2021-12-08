@@ -1,0 +1,30 @@
+.places__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  margin: 0 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .places__title {
+    grid-area: places__title;
+    max-width: 100%;
+    margin: 0;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .places__title {
+    font-size: 72px;
+    line-height: 1.06;
+    /*Optional. Option "Whide screens".
+    Adaptive layout for wide screens
+    font-size: calc((100vw - 48px * 2) / 100 * 6.1);
+    max-width: 91%;*/
+  }
+}
+

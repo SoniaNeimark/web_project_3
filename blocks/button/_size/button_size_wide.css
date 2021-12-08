@@ -1,0 +1,30 @@
+.button_size_wide {
+  width: 288px;
+  margin: 0 auto;
+  align-self: start;
+}
+
+@media screen and (min-width: 768px) {
+  .button_size_wide {
+    width: 248px;
+    grid-area: button_size_wide;
+    margin: 0;
+
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .button_size_wide {
+    width: 90%;
+  }
+}
+
+/*Optional. Option "Wide screens".
+Adaptive layout for wide screens
+@media screen and (min-width: 1280px) {
+  .button_size_wide {
+    width: calc((100vw - 48px * 2) / 100 * 24.35);
+  }
+}*/
+
+
