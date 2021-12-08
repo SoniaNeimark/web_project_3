@@ -36,7 +36,6 @@
 @import url(../blocks/button/_size/button_size_wide.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__wrapper/cover__wrapper.css);
-@import url(../blocks/cover/__image/);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__paragraph/cover__paragraph.css);
