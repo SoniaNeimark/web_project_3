@@ -1,14 +1,11 @@
 .places__card {
   width: 100%;
-  /*width: 100%;*/
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
   grid-row-gap: 30px;
-  /*justify-items: flex-start;*/
   margin: 0 auto 50px auto;
   padding: 0;
-  overflow: hidden;
 }
 
 .places__card:last-of-type {
@@ -18,7 +15,6 @@
 
 @media screen and (min-width: 768px) {
   .places__card {
-    display: grid;
     align-items: flex-end;
     grid-template-columns: 47.25% auto;
     grid-template-rows: auto calc(93.75vw / 100 * 47.25) auto;

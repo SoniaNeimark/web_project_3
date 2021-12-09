@@ -1,4 +1,4 @@
-.intro__text_paragraph {
+.intro__text_paragraph_regular {
   font-size: 16px;
   line-height: 163%;
   margin: 0 auto;
@@ -7,7 +7,7 @@
 /*Optional. Option "Wide screens".
 Adaptive layout for wide screens
 @media screen and (min-width: 1280px) {
-  .intro__text_paragraph {
+  .intro__text_paragraph_regular {
     font-size: calc((100vw - 48px * 2) / 100 * 1.4);
   }
 }*/

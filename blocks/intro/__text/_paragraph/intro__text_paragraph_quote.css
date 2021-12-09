@@ -1,4 +1,4 @@
-.intro__text_quote {
+.intro__text_paragraph_quote {
   font-size: 24px;
   line-height: 1.25;
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .intro__text_quote {
+  .intro__text_paragraph_quote {
     line-height: 1.42;
   }
 }
@@ -14,7 +14,7 @@
 /*Optional. Option "Wide screens".
 Adaptive layout for wide screens
 @media screen and (min-width: 1280px) {
-  .intro__text_quote {
+  .intro__text_paragraph_quote {
     font-size: calc((100vw - 48px * 2) / 100 * 2.05);
   }
 }

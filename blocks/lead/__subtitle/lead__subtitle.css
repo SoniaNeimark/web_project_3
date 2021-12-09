@@ -1,4 +1,4 @@
-.header__subtitle {
+.lead__subtitle {
   max-width: 100%;
   margin: 0;
   font-weight: normal;
@@ -7,14 +7,14 @@
   }
 
   @media screen and (min-width: 768px) {
-    .header__subtitle {
+    .lead__subtitle {
       font-size: 30px;
       line-height: 1.2;
     }
   }
 
   @media screen and (min-width: 1280px) {
-    .header__subtitle {
+    .lead__subtitle {
       max-width: 720px;
     }
   }
@@ -22,7 +22,7 @@
   /*Optional. Option "Wide screens".
   Adaptive layout for wide screens
   @media screen and (min-width: 1280px) {
-    .header__subtitle {
+    .lead__subtitle {
       font-size: calc((100vw - 48px * 2) / 100 * 2.55);
     }
   }

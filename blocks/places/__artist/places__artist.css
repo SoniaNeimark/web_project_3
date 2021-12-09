@@ -2,29 +2,12 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.22;
-}
-
-.places__artist::before {
-  content: "artist";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #AAAAAA;
-  padding-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .places__artist {
     grid-area: places__artist;
   }
-
 }
 /*Optional. Option "Whide screens".
     Adaptive layout for wide screens
